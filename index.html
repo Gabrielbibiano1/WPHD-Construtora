@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cinzel&family=Goldman&family=Playfair+Display:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="script.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <title>WPHD Construtora</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://static.wixstatic.com/media/4daecc_c24f4e597a80466ba6a67d94dc5af9e5~mv2.png/v1/fill/w_161,h_144,al_c,lg_1,q_85,enc_auto/wphd%20isotipo.png"
+                alt="Logo">
+        </div>
+        <div class="name">
+            <h1>WPHD Construtora</h1>
+            <div>
+                <ul>
+                    <li>
+                        <a onclick="menuHomeAparece()">Home</a>
+                    </li>
+                    <li>
+                        <a onclick="menuNosAparece()">Nós</a>
+                    </li>
+                    <li>
+                        <a onclick="menuProjetosAparece()">Projetos</a>
+                    </li>
+                    <li>
+                        <a onclick="menuResidencialAparece()">Residencial</a>
+                    </li>
+                    <li>
+                        <a onclick="menuClientesAparece()">Clientes</a>
+                    </li>
+                    <li id="contatoPisca">
+                        <a onclick="menuContatoAparece()">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div id="home" style="display: none">
+                <h5>O QUE NOS TORNA COMPETITIVOS?</h5>
+                <h4>O COMPROMISSO COM O CLIENTE</h4>
+                <p>está em nosso foco constante de suas necessidades reais
+                    Apresentamos as soluções que refletem os mais altos padrões exigidos pelo mercado. Colaborando com
+                    ética e respeito, mantendo a comunicação transparente e precisa como nossos clientes.
+                    Agindo na obtenção de recursos para atender de forma objetiva as suas necessidade específicas de
+                    cada cliente. Garantindo dessa maneira, confiança e o respeito dentro dos segmentos corporativo,
+                    industrial e comercial.
+                    Nossa visão como empresa é adotar estratégias que nos permitam assegurar a continuidade operacional,
+                    a motivação de nossos colaboradores, a qualidade, segurança e o respeito ao meio ambiente.
+                    Consolidamos nossa missão em integrar soluções construtivas sustentáveis, contribuindo com
+                    excelência operacional em projetos e obras.</p>
+            </div>
+            <div id="nos" style="display: none">
+                <div>
+                    <h4>NOSSA EXPERTISE É SER A SOLUÇÃO</h4>
+                </div>
+                <div class="expertise">
+                        <div>
+                            <img src="/imagens/consultoria e projetos.jpg" alt="">
+                            <p>CONSULTORIA e PROJETO</p>
+                        </div>
+                        <div>
+                            <img src="/imagens/obra e implementacao.jpg" alt="">
+                            <p>OBRA \ IMPLANTAÇÃO</p>
+                        </div>
+                        <div>
+                            <img src="/imagens/residencial.jpg" alt="">
+                            <p>RESIDENCIAL</p>
+                        </div>
+                        <div>
+                            <img src="/imagens/industrial.jpg" alt="">
+                            <p>INDUSTRIAL</p>
+                        </div>
+                </div>
+            </div>
+            <div id="projetos" style="display: none">
+                <div>
+                    <h1>DESCUBRA O NOSSO MUNDO DE SOLUÇÕES CONSTRUTIVAS</h1>
+                </div>
+                <div class="portfolio">
+                    <div>
+                        <img src="/imagens/imagem1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/imagens/imagem2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/imagens/imagem3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="/imagens/imagem4.jpg" alt="">
+                    </div>
+                </div>    
+            </div>
+            <div id="residencial" style="display: none">
+                <div class="casaPropria">
+                    <div>
+                        <h4>Sonho da Casa Própria</h4>
+                    </div>
+                    <div>
+                        <p>A WPHD Construtora realiza o Seu Sonho da Casa Própria.
+                            Desenvolvemos um sistema para a realização de Compra de 
+                            Terreno com Construção realizando toda a consultoria desde 
+                            a escolha do terreno até a entrega das chaves.</p>
+                            <div>
+                                <h5>Mas o que é a Modalidade de Compra de Terreno com Construção?</h5>
+                            </div>
+                        <p>Na modalidade de Financiamento com Aquisição de Terreno e Construção, 
+                            o Banco ajuda você e sua família a comprar seu terreno e construir a 
+                            sua moradia e o seu FGTS pode fazer parte do pagamento da entrada.</p>
+                        <p>O financiamento é feito pelo Sistema Financeiro de Habitação (SFH) e 
+                            tem como garantia a alienação fiduciária.</p>
+                    </div>
+                </div>
+                <div>
+                    <p> A WPHD Construtora, é uma empresa atuante no mercado da construção civil, gerenciada pelo modelo
+                        Turn-key; que apóia o estudo e a viabilidade em todas as fases do projeto, desde a implantação da
+                        obra, na assistencia pós ocupação e no gerenciamento de apoio terceirizado.
+                        Somos especializados na implantação e implementação de ambientes corporativos, industriais e
+                        comerciais, oferecendo sempre o melhor do design, conectando valores de fit out e retro fit para
+                        criar escritórios e áreas de convivência coletiva inspiradoras.
+                        Acreditamos que os ambientes inspiram pessoas, e desta maneira, prezamos pela otimização de espaços
+                        ergonômicos funcionais onde se promova o bem estar coletivo e uma melhor produtividade.
+                        Confira nossos projetos inteligentes aqui!</p>
+                </div>
+                <div>
+                    <p>Em nosso portifólio de projetos inteligentes e elegantes, criamos soluções 
+                        construtivas compatíveis com os avanços tecnológicos de vanguarda, garantindo a 
+                        eficácia em todos os trabalhos executados.</p>
+                </div>       
+            </div>
+            <div id="clientes" style="display: none">
+                <div class="nossosClientes">
+                    <h5>Nossos Clientes</h5>
+                </div>
+                <div class="clientes">
+                    <div>
+                        <div>
+                            <img src="/imagens/bradesco.jpg" alt="Logo Bradesco">
+                        </div>
+                        <div>
+                            <img src="/imagens/copacabanapalace.jpg" alt="Logo Copacabana Palace">
+                        </div>
+                        <div>
+                            <img src="/imagens/demarest.jpg" alt="Logo Demarest">
+                        </div>
+                        <div>
+                            <img src="/imagens/estacio.jpg" alt="Logo Estacio">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="/imagens/fluminense.jpg" alt="Logho Fluminense">
+                        </div>
+                        <div>
+                            <img src="/imagens/grenke.jpg" alt="Logo Grenke">
+                        </div>
+                        <div>
+                            <img src="/imagens/hatch.jpg" alt="Logo Hatch">
+                        </div>
+                        <div>
+                            <img src="/imagens/hsbc.jpg" alt="Logo HSBC">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="/imagens/jsl.jpg" alt="Logo JSL">
+                        </div>
+                        <div>
+                            <img src="/imagens/lemeridien.jpg" alt="Logo Le Meridien">
+                        </div>
+                        <div>
+                            <img src="/imagens/light.jpg" alt="Logo Light">
+                        </div>
+                        <div>
+                            <img src="/imagens/metrorio.jpg" alt="Logo Metro Rio">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="/imagens/odebrecht.jpg" alt="Logo Odebrecht">
+                        </div>
+                        <div>
+                            <img src="/imagens/petrobras.jpg" alt="Logo Petrobras">
+                        </div>
+                        <div>
+                            <img src="/imagens/rededor.jpg" alt="Logo Rede D'or">
+                        </div>
+                        <div>
+                            <img src="/imagens/Rio2016.jpg" alt="Logo Rio 2016">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="/imagens/vale.jpg" alt="Logo Vale">
+                        </div>
+                        <div>
+                            <img src="/imagens/sofitel.jpg" alt="Logo Sofitel">
+                        </div>
+                        <div>
+                            <img src="/imagens/souzacruz.jpg" alt="Logo Souza Cruz">
+                        </div>
+                        <div>
+                            <img src="/imagens/supervia.jpg" alt="Logo Supervia">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="aperfeicoamento">
+                <h5>APERFEIÇOAMENTO CONTÍNUO</h5>
+            </div>
+            <div>
+                <p>A WPHD Construtora, vem se tornando a referência na construção 
+                    de alta complexidade, simplificando operações, performando com 
+                    transparência e retidão desejada pelo cliente.</p>
+            </div>
+            <div id="contato" style="display: none">
+                <div>
+                    <h5>Entre com contato conosco</h5>
+                </div>
+                <form>
+                    <div>
+                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="Sobrenome">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Seu melhor email">
+                        <input type="text" placeholder="Assunto">
+                    </div>
+                    <div class="deixeUmaMensagem">
+                        <input type="text" placeholder="Deixe-nos uma mensagem...">
+                    </div>
+                    <div>
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="rodape">
+                <ul>
+                    <li>
+                        <a target=_blank href="https://github.com/Gabrielbibiano1">Github</a>
+                    </li>
+                    <li>
+                        <a target=_blank href="mailto:teste@teste.com">Email</a>
+                    </li>
+                    <li>
+                        <a target=_blank href="https://wa.me/11999999999">Whatsapp</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
