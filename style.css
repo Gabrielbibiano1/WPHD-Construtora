@@ -62,6 +62,7 @@ header .name div ul li {
     margin: 0 auto;
     transition: 800ms;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 header .name div ul li:hover {
