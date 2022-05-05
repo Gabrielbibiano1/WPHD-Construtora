@@ -61,6 +61,7 @@ header .name div ul li {
     box-shadow: 1px 1px 10px 1px black;
     margin: 0 auto;
     transition: 800ms;
+    border-radius: 5px;
 }
 
 header .name div ul li:hover {
@@ -202,6 +203,7 @@ h5 {
     box-shadow: 1px 1px 10px 1px black;
     border-left: 5px ridge black;
     flex-wrap: wrap;
+    border-radius: 15px;
 }
 
 .container #contato div p {
@@ -262,6 +264,7 @@ ul {
     flex-wrap: wrap;
     transition: 800ms;
     background-color: white;
+    border-radius: 5px;
 }
 
 .container .rodape ul li:hover {
