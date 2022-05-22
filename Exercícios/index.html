@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteio</title>
+</head>
+<body>
+    <div class="sorte">
+        <div class="container">
+            <div class="menor__senha">
+                <p>Menor Senha</p>
+                <input type="number" name="minimo" id="minimo">
+            </div>
+            <div class="maior__senha">
+                <p>Maior Senha</p>
+                <input type="number" name="maximo" id="maximo">
+            </div>
+        </div>
+        <div class="button__sortear">
+            <button onclick="sorteio()">Sortear</button>
+        </div>
+        <div class="resultado__sorteio">
+            <h1 id="resultado"></h1>
+        </div>
+        <div class="numeros__sorteados">
+            <ul id="numerosAnteriores">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
